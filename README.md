@@ -1,5 +1,7 @@
 # Interaction Manager
 
+Author: Zhi Wang,
+
 This a JavaScript implementation of an interaction manager. It is designed to record and manage various types of interactions with ChatGPT, including basic interactions, timestamped interactions, and Dalle interactions (interactions with associated images).
 
 
