@@ -13,8 +13,7 @@ class DalleInteraction extends Interaction {
 
     this.pimageUrl = pimageUrl;
     this.rimageUrl = rimageUrl;
-    //If there is an image, it's true; if there is no image, it's false
-    this.isDalle = pimageUrl.trim() !== "" || rimageUrl.trim() !== "";
+    this.isDalle = true;
   }
   
   show() {
