@@ -1,9 +1,9 @@
-#Interaction Manager
+# Interaction Manager
 
 This a JavaScript implementation of an interaction manager. It is designed to record and manage various types of interactions with ChatGPT, including basic interactions, timestamped interactions, and Dalle interactions (interactions with associated images).
 
 
-##Features
+## Features
 
 1.Record different types of interactions (basic, timestamped, and Dalle).
 2.Display information about each recorded interaction.
@@ -11,7 +11,7 @@ This a JavaScript implementation of an interaction manager. It is designed to re
 4.Extra attribute.  Add the 'gversion' attribute in the interaction class to help users to make decisions about the answers.
 
 
-##Usage
+## Usage
 
 The main classes and their functionalities are:
 1.Interaction - Basic interaction, recording prompt, response, gversion.
@@ -20,7 +20,7 @@ The main classes and their functionalities are:
 4.PromptsManager - Manages a collection of interactions.
 
 
-##Testing
+## Testing
 
 Run main.js for testing. This file:
 1.Create instances of Interaction, TimestampedInteraction, and DalleInteraction.
@@ -30,5 +30,5 @@ You can modify the content as the requirements. The Interaction class should inc
 You can change the 'index' value based on the order of interaction records to delete interactions accordingly。
 
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
