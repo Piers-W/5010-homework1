@@ -1,4 +1,4 @@
-import Interaction from "./5010-homework1/Interaction.js";
+import Interaction from "./Interaction.js";
 
 class TimestampedInteraction extends Interaction {
   constructor(prompt, response, gversion, timestamp) {

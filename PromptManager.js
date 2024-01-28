@@ -1,6 +1,6 @@
-import Interaction from "./5010-homework1/Interaction.js";
+import Interaction from "./Interaction.js";
 import TimestampedInteration from "./TimestampedInteraction.js";
-import DalleInteraction from "./5010-homework1/DalleInteraction.js";
+import DalleInteraction from "./DalleInteraction.js";
 
 export class PromptsManager{
   interactions = [];
